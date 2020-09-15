@@ -139,3 +139,207 @@ h1.groups-title{
     text-align: center;
     position: relative;
 }
+
+.page-account-carousel{
+    padding: 80px 0;
+}
+
+.account-details{
+    padding: 10px 33px;
+    box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.65);
+}
+
+.account-details h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.account-details p{
+    margin-bottom: 0;
+    color: #878785;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.account-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.account-details ul li{
+    margin-bottom: 7px;
+    font-size: 16px;
+    color: #878785;
+}
+
+.account-details ul li i{
+    color: #878785;
+}
+
+.account-details ul li  a{
+    color: black !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.account-details ul li:nth-child(6) {
+    margin: 10px 0;
+}
+
+.account-details ul li.contact{
+    margin-top: 30px;
+}
+
+.account-details ul li a.social-icon.icon-telegram {
+    background-color: #2ca5e0;
+}
+
+.account-details ul li a.social-icon.icon-telegram i,
+.account-details ul li  a.social-icon.icon-whatsapp i{
+    color: #fff;
+    font-size: 20px;
+}
+
+.account-details ul li  a.social-icon.icon-whatsapp {
+    background-color: #25d366;
+}
+
+.page-courses{
+    padding: 60px 0;
+    text-align: center;
+}
+
+.page-courses h1.title1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.page-courses h1.title2{
+    font-size: 2.7rem;
+    font-weight: 900;
+    color: #4F7DF5;
+}
+
+.page-courses h1.title3 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.courses-cards{
+    padding: 25px;
+}
+
+.courses-cards:hover{
+    box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.65);
+}
+
+.courses-cards .card{
+    border: 0px;
+}
+
+.courses-cards .card-body{
+    padding: 0;
+}
+
+.courses-cards .card-body h4{
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.courses-cards .card-body p{
+    text-align: justify;
+    color: #878785;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+.plan-cards {
+    padding: 18px 15px;
+}
+
+.plan-cards .card{
+    border: 2px solid rgba(79, 125, 245,.55);
+}
+
+.card-header{
+    background: #4F7DF5;
+    padding: 55px 0 50px;
+    text-align: center;
+}
+
+.card-header .subtitle {
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+.card-header .title {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0;
+    color: #fff;
+}
+
+.plan-cards .card-body ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.card-info{
+    margin-bottom: 27px;
+    list-style: none;
+}
+
+.card-info li {
+    color: #333333;
+    padding-left: 20px;
+    position: relative;
+}
+
+.card-body ul li {
+    padding: 16px 10px;
+    border-bottom: 2px solid #4F7DF5;
+}
+
+.choto {
+    font-size: 16px;
+}
+
+.sec-color {
+    border: 1px solid #4F7DF5;
+    padding: 4px 10px;
+    border-radius: 7px;
+    color: #ffcc00;
+}
+
+.plan-cards .card-body .t-b-group {
+    padding: 40px 0;
+}
+
+a.custom-button{
+    background: #fff;
+    color: black;
+    border: 1px solid #4F7DF5;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 13px 18px !important;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 50px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+a.custom-button:nth-child(1){
+    margin-right: 10px;
+}
+
+a.custom-button:hover {
+    background: #4F7DF5;
+    color: #fff;
+    border-radius: 50px;
+}
