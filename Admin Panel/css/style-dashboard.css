@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&display=swap');
+
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+button:focus {
+    outline: 0px dotted;
+}
+
 /***** Wrapper *****/
 
 .wrapper {
@@ -249,6 +260,7 @@
 .content {
     width: 100%;
     transition: all 0.3s;
+    padding: 0;
 }
 
 .open-menu {
@@ -259,16 +271,6 @@
     box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.2);
 }
 
-.open-menu.btn-customized,
-.open-menu.btn-customized:hover,
-.open-menu.btn-customized:active,
-.open-menu.btn-customized:focus,
-.open-menu.btn-customized:active:focus,
-.open-menu.btn-customized.active:focus,
-.open-menu.btn-customized.btn.btn-primary:not(:disabled):not(.disabled):active,
-.open-menu.btn-customized.btn.btn-primary:not(:disabled):not(.disabled):active:focus {
-    box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.2);
-}
 
 
 /***** Buttons *****/
@@ -277,12 +279,12 @@ a.btn-customized {
     margin-left: 5px;
     margin-right: 5px;
     padding: .75rem 1.5rem;
-    background: #4F7DF5;
-    border: 0;
-    border-radius: 4px;
-    font-size: 16px;
-    font-weight: 300;
-    color: #fff;
+    background: #fff;
+    border: 1px solid #4F7DF5;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
     box-shadow: none;
 }
 
@@ -292,7 +294,11 @@ a.btn-customized:focus,
 a.btn-customized:active:focus,
 a.btn-customized.active:focus,
 a.btn-customized.btn.btn-primary:not(:disabled):not(.disabled):active,
-a.btn-customized.btn.btn-primary:not(:disabled):not(.disabled):active:focus {
+a.btn-customized.btn.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-logout:hover,
+.btn-logout:active,
+.btn-logout:focus
+{
     outline: 0;
     background: #4F7DF5;
     background: rgba(79, 125, 245, 0.7);
@@ -417,6 +423,23 @@ a.btn-customized-4.btn-customized-light.btn.btn-primary:not(:disabled):not(.disa
 }
 
 
+.open-menu.btn-customized,
+.open-menu.btn-customized:hover,
+.open-menu.btn-customized:active,
+.open-menu.btn-customized:focus,
+.open-menu.btn-customized:active:focus,
+.open-menu.btn-customized.active:focus,
+.open-menu.btn-customized.btn.btn-primary:not(:disabled):not(.disabled):active,
+.open-menu.btn-customized.btn.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-logout,
+.btn-logout:hover,
+.btn-logout:focus,
+.btn-logout:active
+{
+    box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.2);
+}
+
+
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (   min--moz-device-pixel-ratio: 2), only screen and (     -o-min-device-pixel-ratio: 2/1), only screen and (        min-device-pixel-ratio: 2), only screen and (                min-resolution: 192dpi), only screen and (                min-resolution: 2dppx) {
 
     /* logo */
@@ -430,4 +453,50 @@ a.btn-customized-4.btn-customized-light.btn.btn-primary:not(:disabled):not(.disa
         background-image: url(../img/trademarketsolutions-logo-2.png) !important;
     }
 
+}
+
+.header-detail {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #abbdec;
+}
+
+.header-detail img.logo,
+.admin-info{
+    margin-left: auto;
+}
+
+.header-detail .admin-info img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.btn-logout {
+    background: #fff;
+    border: 1px solid #4F7DF5;
+    padding: 12px;
+    border-radius: 29px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.page-cards
+{
+    padding: 30px 90px;
+    text-align: center;
+}
+.btn-video{
+    background: transparent;
+    border: 3px solid #4F7DF5;
+    padding: 11px;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #4F7DF5;
+    font-weight: 600;
+}
+
+.btn-video:hover{
+    color: #fff;
+    background-color: #4F7DF5;
 }
