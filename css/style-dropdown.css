@@ -216,3 +216,10 @@
     transform: translate(0px, 0px);
     opacity: 1;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .cont_drobpdown_menu, .cont_drobpdown_menu1{
+        width: 130%;
+    }
+}
